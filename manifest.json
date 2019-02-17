@@ -1,0 +1,24 @@
+
+{
+  "name": "Testing",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Hi there.",
+  "background": {
+	"scripts": ["background.js"]
+  },
+
+  "icons": {
+    "128" : "test.png"
+  },
+  "browser_action": {
+    "default_icon": "test2.png",
+    "default_title": "test"
+  },
+  "permissions": [
+	"webRequest",
+	"webRequestBlocking",
+	"*://*.google.com/*"
+  
+  ]
+}
